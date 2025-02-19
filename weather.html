@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="./welcome.html">
+            <img src="./img/api.png" alt="api" class="api" />
+          </a>
+          <div class="pages">
+            <a href="./user.html" style="color: white">Users👤</a>
+            <span style="color: white">|</span>
+            <a href="./product.html" style="color: white">Products🛒</a>
+            <span style="color: white">|</span>
+            <a href="#" style="color: white">Weather🌦</a>
+            <span style="color: white">|</span>
+            <a href="./country.html" style="color: white">Country🏳️</a>
+            <span style="color: white">|</span>
+            <a href="./dog.html" style="color: white">Dogs🐶</a>
+            <span style="color: white">|</span>
+            <a href="./univer.html" style="color: white">Unevrsity🏢</a>
+          </div>
+          <div class="content">
+            <a href="#" target="_blank">Dom Project</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section id="heroWeather">
+      <div class="container">
+        <div class="heroWeather">
+          <div class="filtered">
+            <h1>Weather🌦</h1>
+            <select>
+              <option value="ru">Language</option>
+              <option value="ru">Russia</option>
+              <option value="en">English</option>
+              <option value="fr">France</option>
+              <option value="ar">Arabic</option>
+            </select>
+            <div class="input">
+              <input type="text" placeholder="Seacrh..." />
+              <button class="search">Search</button>
+            </div>
+          </div>
+          <div class="weatherBlock"></div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./weather.js"></script>
+  </body>
+</html>

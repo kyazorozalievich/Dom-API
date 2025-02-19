@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="./welcome.html">
+            <img src="./img/api.png" alt="api" class="api" />
+          </a>
+          <div class="pages">
+            <a href="./user.html" style="color: white">Users👤</a>
+            <span style="color: white">|</span>
+            <a href="./product.html" style="color: white">Products🛒</a>
+            <span style="color: white">|</span>
+            <a href="./weather.html" style="color: white">Weather🌦</a>
+            <span style="color: white">|</span>
+            <a href="#" style="color: white">Country🏳️</a>
+            <span style="color: white">|</span>
+            <a href="./dog.html" style="color: white">Dogs🐶</a>
+            <span style="color: white">|</span>
+            <a href="./univer.html" style="color: white">Unevrsity🏢</a>
+          </div>
+          <div class="content">
+            <a href="#" target="_blank">Dom Project</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="heroCountry">
+      <img src="./img/countryBg.jpg" alt="" class="countryBg">
+      <div class="container">
+        <div class="heroCountry">
+          <div class="filtered">
+            <h1>Country🏳️</h1>
+            <select class="textFilter">
+                <option value="">Filter text</option>
+                <option value="coun(a-z)">Country (A-Z)</option>
+                <option value="coun(z-a)">Country (Z-A)</option>
+                <option value="reg(a-z)">Region (A-Z)</option>
+                <option value="reg(z-a)">Region (Z-A)</option>
+            </select>
+            <select class="numberFilter">
+                <option value="">Filter number</option>
+                <option value="area+">Area (+)</option>
+                <option value="area-">Area (-)</option>
+                <option value="pop+">Population (+)</option>
+                <option value="pop-">Population (-)</option>
+            </select>
+            <select class="regionFilter">
+                <option value="">Filter region</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="Americas">Americas</option>
+                <option value="Antarctic">Antartic</option>
+                <option value="Africa">Africa</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+            <div class="input"> 
+              <input type="text" placeholder="Seacrh region...">
+              <button class="search">Search</button>
+            </div>
+        </div>
+        <div class="countries">
+        </div>
+        <button class="next">Next...</button>
+      </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./country.js"></script>
+  </body>
+</html>

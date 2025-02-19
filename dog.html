@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container"> 
+        <div class="header">
+          <a href="./welcome.html">
+            <img src="./img/api.png" alt="api" class="api" />
+          </a>
+          <div class="pages">
+            <a href="./user.html">Users👤</a>
+            <span>|</span>
+            <a href="./product.html">Products🛒</a>
+            <span>|</span>
+            <a href="./weather.html">Weather🌦</a>
+            <span>|</span>
+            <a href="./country.html">Country🏳️</a>
+            <span>|</span>
+            <a href="#">Dogs🐶</a>
+            <span>|</span>
+            <a href="./univer.html">Unevrsity🏢</a>
+          </div>
+          <div class="content">
+            <a href="#" target="_blank" style="border: 2px solid black; color: black;">Dom Project</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="heroDog">
+      <div class="container">
+        <div class="heroDog">
+          <div class="filtered">
+            <h1>Dogs🐶</h1>
+            <select class="dogFilter">
+                <option value="">Filter name</option>
+                <option value="a-z">A-Z</option>
+                <option value="z-a">Z-A</option>
+            </select>
+            <select class="dogBreed">
+              <option value="">Dog breed</option>
+          </select>
+            <div class="input">
+              <input type="text" placeholder="Search dog...">
+              <button class="search">Search</button>
+            </div>
+          </div>
+        <div class="dogs">
+          <div class="nullImage">
+            <img src="./img/404dog.png" alt="">
+            <img src="./img/404dog.png" alt="">
+            <img src="./img/404dog.png" alt="">
+            <img src="./img/404dog.png" alt="">
+          </div>
+          <div class="dogsImage">
+          </div>
+          <div class="dogsBlocks"></div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./dog.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="./welcome.html">
+            <img src="./img/api.png" alt="api" class="api" />
+          </a>
+          <div class="pages">
+            <a href="./user.html">Users👤</a>
+            <span>|</span>
+            <a href="#">Products🛒</a>
+            <span>|</span>
+            <a href="./weather.html">Weather🌦</a>
+            <span>|</span>
+            <a href="./country.html">Country🏳️</a>
+            <span>|</span>
+            <a href="./dog.html">Dogs🐶</a>
+            <span>|</span>
+            <a href="./univer.html">Unevrsity🏢</a>
+          </div>
+          <div class="content">
+            <a href="#" target="_blank">Dom Project</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="heroProduct">
+      <div class="container">
+        <div class="heroProduct">
+          <div class="filtered">
+            <h1>Products🛒</h1>
+            <select class="priceFilter">
+                <option value="">Filter price</option>
+                <option value="expensive">Expensive</option>
+                <option value="cheap">Cheap</option>
+            </select>
+            <select class="titleFilter">
+                <option value="">Filter title</option>
+                <option value="a-z">A-Z</option>
+                <option value="z-a">Z-A</option>
+            </select>
+            <select class="rateFilter">
+                <option value="">Filter rate</option>
+                <option value="vip">Vip</option>
+                <option value="simple">Simple</option>
+            </select>
+            <select class="countFilter">
+                <option value="">Filter count</option>
+                <option value="many">Many</option>
+                <option value="little">Little</option>
+            </select>
+        </div>
+        <div class="products"></div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./product.js"></script>
+  </body>
+</html>

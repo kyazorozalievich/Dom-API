@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <a href="./welcome.html">
+            <img src="./img/api.png" alt="api" class="api" />
+          </a>
+          <div class="pages">
+            <a href="./user.html">Users👤</a>
+            <span>|</span>
+            <a href="./product.html">Products🛒</a>
+            <span>|</span>
+            <a href="./weather.html">Weather🌦</a>
+            <span>|</span>
+            <a href="./country.html">Country🏳️</a>
+            <span>|</span>
+            <a href="./dog.html">Dogs🐶</a>
+            <span>|</span>
+            <a href="#">Unevrsity🏢</a>
+          </div>
+          <div class="content">
+            <a href="#" target="_blank">Dom Project</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section id="heroUniver">
+      <div class="univerBg">
+        <div class="blur"></div>
+      </div>
+      <div class="container">
+        <div class="heroUniver">
+          <div class="filtered">
+            <h1>Unevrsity🏢</h1>
+            <select class="univerCountry">
+              <option value="">Filter university</option>
+              <option value="a-z">A-Z</option>
+              <option value="z-a">Z-A</option>
+            </select>
+            <div class="input">
+              <input type="text" placeholder="Search university country..." />
+              <button class="search">Search</button>
+            </div>
+          </div>
+          <div class="universities"></div>
+        </div>
+      </div>
+     
+    </section>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="./univer.js"></script>
+  </body>
+</html>
